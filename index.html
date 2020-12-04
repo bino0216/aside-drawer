@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<style>
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    background: #000;
+}
+aside.left {
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+}
+aside.right {
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+aside.top {
+    width: 100vw;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+}
+aside.bottom {
+    width: 100vw;
+    height: 50vh;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+}
+
+
+.fog {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    opacity: 0;
+    transition: transform .15s;
+    background: #565656c7;
+}
+</style>
+<body>
+    <div class="fog"></div>
+    <aside class="right"></aside>
+    <script src="./drawer.js"></script>
+    <script>
+        const fog = document.querySelector('.fog');
+        const drawer = new Drawer({
+            element: document.querySelector('aside'),
+            direction: 'right',
+            allowToUser: true,
+
+            changeCallback: (percent) => {
+                fog.style.opacity = percent * .01;
+            }
+        })
+    </script>
+</body>
+</html>
