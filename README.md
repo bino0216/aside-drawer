@@ -1,4 +1,4 @@
-12.03 - 12.04
+연속적 클릭하면 콘솔이 계속 찍히는 문제 !
 
 only javascript library.
 
