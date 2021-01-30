@@ -20,14 +20,14 @@
 
     setDefaultProperty('direction', 'left');
 
-    // 30% 이상으로 꺼내야 서랍이 완전히 열림.
+    // 40% 이상으로 꺼내야 서랍이 완전히 열림.
     setDefaultProperty('restoringPercentage', 40);
 
     // 사용자가 직접 서랍을 열 수 있나?
     setDefaultProperty('allowToDirectSpread', false);
-    // 40픽셀 구석에서 터치하면 직접 서랍을 열 수 있음.
+    // 50픽셀 구석에서 터치하면 직접 서랍을 열 수 있음.
     if(v.allowToDirectSpread)
-    setDefaultProperty('openAllowPixel', 40);
+    setDefaultProperty('openAllowPixel', 50);
     // v.speed = 6;
     
     let percent = 0; //    현재 drawer가 열려있는 퍼센티지 정도. 0%면 닫혀있는 상태.
