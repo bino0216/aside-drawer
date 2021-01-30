@@ -40,12 +40,14 @@ first parameter will be percent.
 ```
 and percent is 100 or 0, it means open or close.
 
-### restoringPercentage
-
 
 ### allowToDirectSpread
 set rull that can be control open drawer by user.
 if it is false, user cant open drawer when drawer have been closed.
+
+### restoringPercentage
+it is meaningful when property allowToDirectSpread property is true.
+also you can manipulate fix percentage of drawer. its default value is 40. it mean drawer will be open only when user tug until 40% of screen of cellphone.
 
 ### openAllowPixel
 it is meaningful when property allowToDirectSpread property is true.
