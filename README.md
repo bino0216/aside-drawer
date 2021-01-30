@@ -48,8 +48,8 @@ set rull that can be control open drawer by user.
 if it is false, user cant open drawer when drawer have been closed.
 
 ### openAllowPixel
-it is meaningful when property allowToUser is true.
-when drawer closed state, user can open the drawer within openAllowPixel degree.
+it is meaningful when property allowToDirectSpread property is true.
+when drawer closed state, user can open the drawer within openAllowPixel degree. in other words, it can be opened only in inner code.
 
 # Notice
 ### changeCallback property guide
