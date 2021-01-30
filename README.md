@@ -1,4 +1,4 @@
-drawer helps to make web component to android drawer aside view.
+drawer helps to make web component like android drawer aside view.
 
 up down left right every side drawer library.
 
