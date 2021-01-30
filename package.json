@@ -1,0 +1,18 @@
+{
+  "name": "aside-drawer",
+  "version": "0.8.1",
+  "description": "drawer helps to make web component like android drawer aside view",
+  "main": "dist/aside-drawer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bino0216/aside-drawer.git"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "keywords": ["aside", "drawer"],
+  "author": "bino0216",
+  "license": "WTFPL",
+  "bugs": "https://github.com/bino0216/aside-drawer/issues",
+  "homepage": "https://github.com/bino0216/aside-drawer"
+}
