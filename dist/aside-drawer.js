@@ -6,7 +6,7 @@
     else if(typeof define === 'function' && define.amd)
         define(factory);
     else
-        global.drawerLayout = factory;
+        global.asideDrawer = factory;
 })(this, function asideDrawer(v = {}) {
     if(this.constructor.name != 'asideDrawer')
         return console.error('must to call by constructor');
