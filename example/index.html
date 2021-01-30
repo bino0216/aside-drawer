@@ -105,7 +105,7 @@ aside.bottom {
         const fog = document.querySelector('.fog');
         directions.map(direction => {
             const aside = document.querySelector('.' + direction);
-            const drawer = new drawerLayout({
+            const drawer = new asideDrawer({
                 element: aside,
                 direction,
                 allowToDirectSpread: true,
