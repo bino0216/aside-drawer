@@ -47,7 +47,7 @@ and percent is 100 or 0, it means open or close.
 ### restoringPercentage
 
 
-### allowToUser
+### allowToDirectSpread
 set rull that can be control open drawer by user.
 if it is false, user cant open drawer when drawer have been closed.
 

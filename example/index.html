@@ -105,7 +105,7 @@ aside.bottom {
             const drawer = new drawerLayout({
                 element: aside,
                 direction,
-                allowToUser: true,
+                allowToDirectSpread: true,
 
                 changeCallback: (percent) => {
                     !percent ? fog.style.display = 'none' : fog.style.display = 'block';
