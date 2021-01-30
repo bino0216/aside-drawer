@@ -1,7 +1,3 @@
-연속적 클릭하면 콘솔이 계속 찍히는 문제 !
-
-only javascript library.
-
 drawer helps to make web component to android drawer aside view.
 
 up down left right every side drawer library.
