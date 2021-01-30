@@ -21,7 +21,7 @@ aside {
 <aside></aside>
 ```
 ```javascript
-const drawer = new Drawer({
+const drawer = new asideDrawer({
     element: document.querySelector('aside')
 })
 ```
