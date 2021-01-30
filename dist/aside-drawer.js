@@ -7,8 +7,8 @@
         define(factory);
     else
         global.drawerLayout = factory;
-})(this, function drawerLayout(v = {}) {
-    if(this.constructor.name != 'drawerLayout')
+})(this, function asideDrawer(v = {}) {
+    if(this.constructor.name != 'asideDrawer')
         return console.error('must to call by constructor');
 
     function setDefaultProperty(property, value) {
@@ -181,8 +181,6 @@
                         draweredHeight = drawerHeight * (percent / 100);
                     }
                     
-
-
                     if(
                         (
                             !isOpened &&
