@@ -25,9 +25,9 @@
 
     // 사용자가 직접 서랍을 열 수 있나?
     setDefaultProperty('allowToDirectSpread', false);
-    // 60픽셀 구석에서 터치하면 직접 서랍을 열 수 있음.
+    // 120픽셀 구석에서 터치하면 직접 서랍을 열 수 있음.
     if(v.allowToDirectSpread)
-    setDefaultProperty('openAllowPixel', 60);
+    setDefaultProperty('openAllowPixel', 120);
     // v.speed = 6;
     
     let percent = 0; //    현재 drawer가 열려있는 퍼센티지 정도. 0%면 닫혀있는 상태.
